@@ -50,6 +50,7 @@ header {
 h1, h2 {
   color: #fff5cf;
   font-weight: normal;
+  text-shadow: 5px 5px 8px #7f6854;
 }
 
 h1 {
@@ -132,7 +133,6 @@ footer p {
   margin: 2.5%;
   background-color: #fffbed;
   color: #b29c7d;
-  /*border-bottom: solid 1px #dbcdad;*/
   border-bottom: solid 1px #b29c7d;
 }
 

@@ -63,6 +63,10 @@
     width: 45%;
   }
 
+  nav a {
+    text-shadow: 3px 5px 12px #7A6B56;
+  }
+
   #logo {
     float: left;
     margin-left: 5%;
