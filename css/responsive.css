@@ -30,6 +30,7 @@
 
   #gallery li {
     width: 28.3333%;
+    border-bottom: solid 2px #b29c7d;
   }
 
   #gallery li:nth-child(4n) {

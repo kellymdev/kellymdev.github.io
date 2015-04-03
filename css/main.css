@@ -132,7 +132,8 @@ footer p {
   margin: 2.5%;
   background-color: #fffbed;
   color: #b29c7d;
-  border-bottom: solid 1px #dbcdad;
+  /*border-bottom: solid 1px #dbcdad;*/
+  border-bottom: solid 1px #b29c7d;
 }
 
 #gallery li a p {
