@@ -161,6 +161,15 @@ footer p {
 
 
 
+/*--PAGE: IMAGES----------------*/
+
+.description li {
+  list-style-type: square;
+  padding-bottom: 10px;
+}
+
+
+
 /*--COLOURS---------------------*/
 
 /* Site body */
