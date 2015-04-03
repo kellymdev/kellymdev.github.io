@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #d1e6f0;
+  color: #999;
 }
 
 #wrapper {
@@ -12,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #b29c7d;
 }
 
 img {
@@ -31,6 +34,8 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
+  background: #b29c7d;
+  border-color: #7f6854;
 }
 
 #logo {
@@ -38,18 +43,21 @@ header {
   margin: 0;
 }
 
+h1, h2 {
+  color: #fff5cf;
+  font-weight: normal;
+}
+
 h1 {
   font-family: 'Lobster', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
-  font-weight: normal;
   line-height: 0.8em;
 }
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
-  font-weight: normal;
 }
 
 
@@ -60,6 +68,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
+  background: #a4b7bb; /* Nav background on mobile devices */
 }
 
 nav ul {
@@ -75,6 +84,14 @@ nav li {
 nav a {
   font-weight: 700;
   padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: #fff5cf;
+}
+
+nav a.selected, nav a:hover {
+  color: #7f6854;
 }
 
 
@@ -166,45 +183,4 @@ footer p {
 .description li {
   list-style-type: square;
   padding-bottom: 10px;
-}
-
-
-
-/*--COLOURS---------------------*/
-
-/* Site body */
-body {
-  background-color: #d1e6f0;
-  color: #999;
-}
-
-/* Header */
-header {
-  background: #b29c7d;
-  border-color: #7f6854;
-}
-
-/* Nav background on mobile devices */
-nav {
-  background: #a4b7bb;
-}
-
-/* Logo text */
-h1, h2 {
-  color: #fff5cf;
-}
-
-/* Links */
-a {
-  color: #b29c7d;
-}
-
-/* Colour for a nav link */
-nav a, nav a:visited {
-  color: #fff5cf;
-}
-
-/* Selected nav link */
-nav a.selected, nav a:hover {
-  color: #7f6854;
 }
