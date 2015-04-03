@@ -50,7 +50,6 @@ header {
 h1, h2 {
   color: #fff5cf;
   font-weight: normal;
-  text-shadow: 5px 5px 8px #7f6854;
 }
 
 h1 {
@@ -58,12 +57,14 @@ h1 {
   margin: 15px 0;
   font-size: 1.75em;
   line-height: 0.8em;
+  text-shadow: 5px 5px 14px #7f6854;
 }
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   text-transform: uppercase;
+  text-shadow: 5px 5px 5px #7f6854;
 }
 
 
