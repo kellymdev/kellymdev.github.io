@@ -102,6 +102,10 @@
     float: right;
   }
 
+  #main-content h3 {
+    margin: 0 0 1em 0;
+  }
+
   .portfolio-image {
     box-shadow: 3px 3px 15px #999;
   }

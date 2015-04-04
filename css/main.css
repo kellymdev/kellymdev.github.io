@@ -193,3 +193,7 @@ footer p {
   list-style-type: square;
   padding-bottom: 10px;
 }
+
+#main-content h3 {
+  margin: 1em 0 1em 0;
+}
