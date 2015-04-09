@@ -2,12 +2,14 @@ var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
 
-// Add the image and caption to the overlay
+// Add the image to the overlay
 $overlay.append($image);
-$overlay.append($caption);
 
 // Add the overlay to the dom
 $("body").append($overlay);
+
+// Add the caption to the overlay
+$overlay.append($caption);
 
 // Capture the click event on a link to an image
 $("#gallery a").click(function(event){
