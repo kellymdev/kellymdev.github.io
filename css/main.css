@@ -162,7 +162,8 @@ footer p {
 
 #overlay img {
   margin-top: 5%;
-  width: 60%;
+  max-height: 70%;
+  max-width: 70%;
 }
 
 #overlay p {
