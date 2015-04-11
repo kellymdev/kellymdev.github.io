@@ -1,6 +1,14 @@
 var $overlay = $('<div id="overlay"></div>');
+var $close = $("<p>Click to close</p>");
 var $image = $("<img>");
 var $caption = $("<p></p>");
+
+//$close.addClass("close");
+$close.css({'text-align': 'right',
+            'margin-right': '20px',
+            'font-size': '0.75em'});
+
+$overlay.append($close);
 
 // Add the image to the overlay
 $overlay.append($image);
