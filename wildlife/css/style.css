@@ -139,7 +139,7 @@ nav a.selected, nav a:hover {
   padding-bottom: 95px;
 }
 
-.secondary-content {
+.wildlife-types {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #b3d8cb;
@@ -161,7 +161,7 @@ nav a.selected, nav a:hover {
 /* Layout Styles ------------------ */
 
 .primary-content,
-.secondary-content {
+.wildlife-types {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -209,7 +209,7 @@ nav a.selected, nav a:hover {
 
 @media (max-width: 1024px) {
   .primary-content,
-  .secondary-content {
+  .wildlife-types {
     width: 90%;
   }
   .wildlife {
@@ -223,7 +223,7 @@ nav a.selected, nav a:hover {
     border-top: none;
   }
   .primary-content,
-  .secondary-content {
+  .wildlife-types {
     width: 100%;
     padding: 20px;
   }
