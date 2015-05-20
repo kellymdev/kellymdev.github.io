@@ -214,11 +214,13 @@ nav a.selected, nav a:hover {
 }
 
 @media (max-width: 768px) {
+  .primary-content {
+    border-top: none;
+  }
   .primary-content,
   .secondary-content {
     width: 100%;
     padding: 20px;
-    border-top: none;
   }
   .main-header {
     max-height: 380px;
