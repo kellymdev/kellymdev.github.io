@@ -175,6 +175,10 @@ nav a.selected, nav a:hover {
   border-top: 2px solid #b3d8cb;
 }
 
+.to-top {
+  text-align: right;
+}
+
 /* Layout Styles ------------------ */
 
 .primary-content,
