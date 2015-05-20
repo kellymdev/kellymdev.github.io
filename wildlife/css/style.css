@@ -57,13 +57,9 @@ li {
 
 /* Pseudo-classes ------------------ */
 
-a:link {
+a:link, a:visited {
   color: #4E8077;
   text-decoration: none;
-}
-
-a:visited {
-  color: #4E8077;
 }
 
 a:hover, a:active {
@@ -75,7 +71,7 @@ a:hover, a:active {
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 20px;
+  margin: 20px 0;
   background: #4e8077;
 }
 
@@ -145,8 +141,7 @@ nav a.selected, nav a:hover {
 }
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   border-bottom: 10px solid #4e8077;
 }
 
@@ -249,17 +244,3 @@ nav a.selected, nav a:hover {
     padding: 20px 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
