@@ -105,7 +105,7 @@ nav a {
   padding: 15px 10px;
 }
 
-nav a, nav a:visited {
+nav a:link, nav a:visited {
   color: #e4fff0;
 }
 
