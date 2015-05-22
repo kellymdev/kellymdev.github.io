@@ -78,6 +78,8 @@ nav {
   padding: 10px 0;
   margin: 20px 0;
   background: #4e8077;
+  font-family: 'Architects Daughter', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
 }
 
 nav ul {
@@ -91,7 +93,7 @@ nav li {
 }
 
 nav a {
-  font-weight: 700;
+  font-weight: normal;
   padding: 15px 10px;
 }
 
