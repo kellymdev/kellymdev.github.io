@@ -1,0 +1,107 @@
+/*----------General Styles-----------------------*/
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background-color: #e7e8e7;
+  color: #a69e9d;
+}
+
+#content {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #474143;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
+/*----------Heading Styles-----------------------*/
+
+header {
+  margin: 0 0 30px 0;
+  padding: 5px 5px 20px 20px;
+  width: 100%;
+  background: #a69e9d;
+  border-color: #7f6854;
+  text-align: left;
+}
+
+h1, h2 {
+  color: #e7e8e7;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  line-height: 0.8em;
+  text-shadow: 5px 5px 14px #7f6854;
+}
+
+h2 {
+  font-size: 0.9em;
+  margin: -5px 0 0;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px #7f6854;
+}
+
+
+/*----------Font Styles--------------------------*/
+
+h3 {
+  margin: 5px 0 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  color: #474143;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #474143;
+}
+
+p {
+  font-size: 1.05em;
+  line-height: 1.25;
+  margin: 0 0 1em 0;
+}
+
+
+/*----------Portfolio Styles---------------------*/
+
+.site {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px dashed #a69e9d;
+}
+
+.site img {
+  width: 45%;
+  float: left;
+  border: 1px solid black;
+}
+
+.site-description {
+  width: 48%;
+  float: right;
+}
+
+
+/*----------Footer Styles------------------------*/
+
+footer {
+  font-size: 0.9em;
+  text-align: center;
+}
