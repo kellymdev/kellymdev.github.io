@@ -2,7 +2,7 @@ const overlay = document.createElement('div');
 overlay.setAttribute('id', 'overlay');
 
 const close = document.createElement('p');
-close.innerText = 'Click to close';
+close.innerText = 'Click anywhere to close';
 close.style.textAlign = 'right';
 close.style.marginRight = '20px';
 close.style.fontSize = '0.75em';
